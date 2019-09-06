@@ -5,6 +5,9 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+# Workflow（下書き機能） 追加
+publish_mode: editorial_workflow
+
 collections:
   - name: "blog"
     label: "Blog"
